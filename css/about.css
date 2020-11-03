@@ -1,0 +1,22 @@
+.about {
+    padding: 2em 15% 2em 20%;
+}
+
+.about--h1 {
+    padding-top: 1.1em;
+    font-size: 60px;
+    
+}
+
+.about--h2 {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding-right: 40%;
+    letter-spacing: 2px;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.contactus--button {
+    padding : 1.5% 5%;
+}

@@ -1,0 +1,42 @@
+.divider {
+    padding-top: 4em;
+    width: 100%;
+    text-align:center;
+    box-sizing:border-box;
+}
+
+.Text {
+	font-size: 16px;
+	font-weight: 400;
+	background-color: #fff;
+	padding-right: 10px;
+    display: inline-block;
+    width: 6%;
+    padding: 0px;
+    vertical-align: middle;
+    opacity: 0.3;
+}
+
+.div-line2 {
+	border-bottom: 1px solid #f0f0f0;
+	/* border-top: 1px solid #f0f0f0; */
+	width: 74%;
+	height: 2px;
+	display: inline-block;
+    vertical-align: middle;
+    background-color: #444857;
+    margin-bottom: 0;
+    opacity: 0.3;
+}
+
+.div-line1 {
+	border-bottom: 1px solid #f0f0f0;
+	/* border-top: 1px solid #f0f0f0; */
+	width: 19%;
+    height: 2px;
+    opacity: 0.3;
+	display: inline-block;
+    vertical-align: middle;
+    background-color: #444857;
+    margin-bottom: 0;
+}

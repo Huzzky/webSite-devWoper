@@ -1,0 +1,79 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2em 15% 2em 20%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.logo-div {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #1890FF;
+    border: none;
+    outline: none;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #edf0f1;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(27, 114, 219);
+}
+
+button:active {
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+@media screen and (max-width: 780px) {
+    .nav__links li {    
+        padding: 0px 5px;
+    }
+    button{
+        font-size: 12px;
+        padding: 3px 5px;
+    }
+    header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 2em 2%;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    /* Здесь должно быть боковое меню(overlay) */
+}
