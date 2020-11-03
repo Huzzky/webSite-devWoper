@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Turrent Road";
     src: local("Turrent Road"),
-        url('/fonts/TurretRoad-Medium.ttf') format('woff');
+        url('/fonts/TurretRoad-Light.ttf') format('woff');
     font-weight: normal;
     font-style: normal;
 }

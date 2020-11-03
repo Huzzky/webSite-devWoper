@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.5em 15% 1em 20%;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #f7f7f7;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    opacity: 0.5;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
