@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 2em 15% 2em 20%;
+    padding: 2em 15% 2em 15%;
     font-size: 18px;
     font-weight: 700;
 }
@@ -31,7 +31,7 @@ header {
     color: #0088a9;
 }
 
-button {
+.btnCTA {
     padding: 9px 25px;
     background-color: #1890FF;
     border: none;
@@ -43,11 +43,11 @@ button {
     font-size: 20px;
 }
 
-button:hover {
+.btnCTA:hover {
     background-color: rgb(27, 114, 219);
 }
 
-button:active {
+.btnCTA:active {
     border: none;
     outline: none;
 }
@@ -56,24 +56,39 @@ button:active {
 
 
 
-
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 820px) {
     .nav__links li {    
-        padding: 0px 5px;
+        padding: 0px 10px;
     }
-    button{
-        font-size: 12px;
-        padding: 3px 5px;
+    .btnCTA{
+        font-size: 16px;
+        padding: 5px 7px;
+        font-weight: 800;
     }
     header {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        padding: 2em 2%;
-        font-size: 12px;
+        padding: 2em 10%;
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 550px) {
-    /* Здесь должно быть боковое меню(overlay) */
+    .nav__links li {    
+        padding: 0px 5px;
+    }
+    .btnCTA{
+        margin-right: -100em;
+        padding: 0;
+        font-size: 0;
+    }
+    header {
+        padding: 2em 10%;
+        font-size: 14px;
+    }
+    .logo-div img {
+        width: 24px;
+        height: 24px;
+    }
+    .logo-div p {
+        font-size: 12px;
+    }
 }

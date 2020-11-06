@@ -2,8 +2,8 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 1.5em 15% 1em 20%;
-    font-size: 18px;
+    padding: 1.5em 15% 1em 15%;
+    font-size: 16px;
     font-weight: 700;
     background-color: #f7f7f7;
 }
@@ -19,11 +19,33 @@ footer {
     opacity: 0.5;
 }
 
-.nav_links li a {
-    transition: all 0.3s ease 0s;
-}
 
 
-.nav_links li a:hover {
-    color: #0088a9;
-}
+@media screen and (max-width: 1650px) {
+
+    }
+    
+@media screen and (max-width: 1500px) {
+
+    }
+    
+@media screen and (max-width: 1150px) {
+
+    }
+    
+ @media screen and (max-width: 870px) {
+    footer {
+        padding: 1.5em 10% 1em 10%;
+        font-size: 14px;
+    }
+    }
+
+    @media screen and (max-width: 550px) {
+        footer img{
+            width: 20px;
+            height: 20px;
+        }
+        footer {
+            padding: 1.5em 7% 1em 7%;
+        }
+    }

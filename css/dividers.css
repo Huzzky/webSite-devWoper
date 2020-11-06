@@ -1,5 +1,5 @@
 .divider {
-    padding-top: 4em;
+    padding-top: 2em;
     width: 100%;
     text-align:center;
     box-sizing:border-box;
@@ -40,3 +40,100 @@
     background-color: #444857;
     margin-bottom: 0;
 }
+
+
+
+@media screen and (max-width: 1850px) {
+    .Text {
+        font-size: 16px;
+        font-weight: 400;
+        background-color: #fff;
+        padding-right: 10px;
+        width: 6%;
+        padding: 0px;
+    }
+    
+    .div-line2 {
+        width: 74%;
+        height: 2px;
+        background-color: #444857;
+    }
+    
+    .div-line1 {
+        width: 19%;
+        height: 2px;
+        margin-bottom: 0;
+    }
+    }
+    
+@media screen and (max-width: 1500px) {
+    .Text {
+        font-size: 14px;
+        width: 8%;
+        padding: 0px;
+    }
+    
+    .div-line2 {
+        width: 70%;
+        height: 2px;
+    }
+    
+    .div-line1 {
+        width: 20%;
+        height: 2px;
+    }
+    }
+    
+@media screen and (max-width: 950px) {
+    .Text {
+        font-size: 14px;
+        width: 12%;
+        padding: 0px;
+    }
+    
+    .div-line2 {
+        width: 66%;
+        height: 2px;
+    }
+    
+    .div-line1 {
+        width: 20%;
+        height: 2px;
+    }
+    }
+    
+ @media screen and (max-width: 650px) {
+    .Text {
+        font-size: 14px;
+        width: 18%;
+        padding: 0px;
+    }
+    
+    .div-line2 {
+        width: 60%;
+        height: 2px;
+    }
+    
+    .div-line1 {
+        width: 19.5%;
+        height: 2px;
+    }
+    }
+
+    @media screen and (max-width: 550px) {
+        .Text {
+            font-size: 12px;
+            width: 18%;
+            padding: 0px;
+        }
+        
+        .div-line2 {
+            width: 58%;
+            height: 2px;
+        }
+        
+        .div-line1 {
+            width: 19.5%;
+            height: 2px;
+        }
+    }
